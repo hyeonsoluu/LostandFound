@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623081919826",
+    "project_id": "lnf-project-b2873",
+    "storage_bucket": "lnf-project-b2873.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623081919826:android:b6a56a2f22dfe59894968b",
+        "android_client_info": {
+          "package_name": "com.lostandfound.bottomnavi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623081919826-17uairj9c73161qrnrt2lcjgl9tdnmnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiXSEoYAz_5OnVTLG3Q2ZhAsi_cU2ikCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623081919826-17uairj9c73161qrnrt2lcjgl9tdnmnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

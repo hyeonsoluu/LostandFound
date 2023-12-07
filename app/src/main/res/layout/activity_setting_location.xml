@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:backgroundTint="#FCF8FF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:background="#6750A3"
+            android:fontFamily="@font/font1"
+            android:text="사용자 아이디"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_userID_loc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F4FF"
+            android:fontFamily="@font/font1"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_settingLocation"
+            android:layout_width="294dp"
+            android:layout_height="86dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_locationRegister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/font1"
+            android:text="등록"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

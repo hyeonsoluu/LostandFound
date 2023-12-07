@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner2">
+        <item>USB</item>
+        <item>가위</item>
+        <item>거울</item>
+        <item>단지갑</item>
+        <item>립밤</item>
+        <item>립스틱</item>
+        <item>마우스</item>
+        <item>무선이어폰</item>
+        <item>백팩</item>
+        <item>벙거지 모자</item>
+        <item>볼캡</item>
+        <item>비니</item>
+        <item>아이섀도우</item>
+        <item>안경</item>
+        <item>열쇠</item>
+        <item>유선 이어폰</item>
+        <item>인형</item>
+        <item>자</item>
+        <item>장우산</item>
+        <item>접이식 우산</item>
+        <item>지우개</item>
+        <item>책</item>
+        <item>카드</item>
+        <item>카드 지갑</item>
+        <item>커터 칼</item>
+        <item>쿠션 팩트</item>
+        <item>키보드</item>
+        <item>틴트</item>
+        <item>펜</item>
+        <item>풀</item>
+        <item>필통</item>
+        <item>핸드백</item>
+        <item>핸드폰</item>
+        <item>헤드폰</item>
+        <item>기타</item>
+    </string-array>
+</resources>

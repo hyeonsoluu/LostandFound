@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner1">
+        <item>가방</item>
+        <item>의류</item>
+        <item>전자기기</item>
+        <item>지갑</item>
+        <item>학용품</item>
+        <item>화장품</item>
+        <item>기타</item>
+    </string-array>
+</resources>
